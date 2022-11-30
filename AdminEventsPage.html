@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SBDCBootstrapDesign</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/untitled-1.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <section id="contact">
+        <h1 class="text-center" style="text-align: center;margin-top: 0px;position: fixed;background: #ffffff;margin-left: 0px;width: 100%;height: 60px;margin-bottom: 0px;padding-top: 15px;padding-bottom: 0px;font-size: 30px;"><span style="font-weight: normal !important; color: rgb(102, 184, 33);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Events&nbsp; &nbsp; &nbsp;</span><button class="btn btn-primary" type="button" style="margin-left: 50px;height: 35px;padding-top: 4px;background: rgb(0,0,0);color: rgb(255,255,255);border: 1px solid rgb(0,0,0);">EXPORT</button><a class="btn btn-primary" role="button" style="margin-left: 20px;height: 35px;padding-top: 4px;color: rgb(255,255,255);background: rgb(0,0,0);border: 1px solid rgb(0,0,0);" href="AdminAddEventPage.html">ADD EVENT</a><br></h1>
+        <div class="container" id="containerSearch-1" style="/*border-radius: 40px;*/position: fixed;background: #ffffff;border: 1px solid rgb(0,0,0);width: 100%;margin-top: 3.9%;max-width: 100%;margin-left: 0px;"><label class="form-label text-start" id="lblTitle-3" style="margin-bottom: 0;font-weight: bold;width: 50px;margin-left: 118px;">Title:<br></label><input type="text" id="txtTitle-3" placeholder="Enter title..." style="width: 500px;/*position: absolute;*/left: 15%;margin-bottom: 10px;border-radius: 5px;height: 30px;text-align: left;margin-top: 20px;border: 1px solid rgb(0,0,0);"><label class="form-label" id="lblTopic-2" style="margin: 0px;font-weight: bold;width: 50px;margin-bottom: 0px;margin-left: 70px;">Topic:&nbsp;</label>
+            <div class="dropdown d-inline" id="btnTopics-1" style="width: 300px;height: 40px;"><button class="btn dropdown-toggle d-inline" aria-expanded="false" data-bs-toggle="dropdown" id="btnTopics-2" type="button" style="width: 500px;color: rgb(0,0,0);border-radius: 5px;margin-bottom: 10px;margin-right: 0px;border: 1px solid #000000;height: 30px;padding-top: 0px;">All</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">Internet/Web Training</a><a class="dropdown-item" href="#">Accounting/Budget</a><a class="dropdown-item" href="#">Business Startup/Preplanning</a></div>
+            </div><label class="form-label" id="lblDate-1" style="margin-right: 0px;margin-bottom: 10px;width: 100px;margin-left: 118px;"><strong>Date Range:</strong></label><input id="txtDate-1" type="date" style="width: 157px;margin-right: 10px;border-radius: 5px;border: 1px solid rgb(0,0,0);height: 20px;"><label class="form-label" id="lblTo-1" style="margin-right: 10px;"><strong>to</strong></label><input class="d-inline" id="txtDateTwo-1" type="date" style="width: 157px;margin-right: 70px;border-radius: 5px;border: 1px solid rgb(0,0,0);height: 20px;"><label class="form-label d-inline" id="lblDate-2" style="margin-right: 0px;margin-bottom: 10px;width: 100px;"><strong>Type :&nbsp; &nbsp; &nbsp;&nbsp;</strong></label>
+            <div class="form-check form-check-inline" id="allRadio-3" style="width: 60px;margin-right: 0px;"><input class="form-check-input" type="radio" id="All-3" checked="" name="Radio"><label class="form-check-label" for="All-3"><strong>All</strong></label></div>
+            <div class="form-check form-check-inline" id="onDemandRadio-3" style="width: 60px;margin-right: 65px;"><input class="form-check-input" type="radio" id="On-Demand-3" name="Radio"><label class="form-check-label" for="On-Demand-3"><strong>On</strong>&nbsp;<strong>Demand</strong></label></div>
+            <div class="form-check form-check-inline" id="liveRadio-3" style="width: 60px;"><input class="form-check-input" type="radio" id="Live-3" name="Radio"><label class="form-check-label" for="Live-3"><strong>Live</strong><br></label></div><label class="form-label" id="lblTopic-3" style="margin: 0px;font-weight: bold;width: 65px;margin-bottom: 0px;margin-left: 46px;">Sort By:&nbsp;&nbsp;</label>
+            <div class="dropdown d-inline" id="btnTopics-5" style="width: 300px;height: 40px;"><button class="btn dropdown-toggle d-inline" aria-expanded="false" data-bs-toggle="dropdown" id="btnTopics-6" type="button" style="width: 210px;color: rgb(0,0,0);border-radius: 5px;/*margin-bottom: 30px;*/border: 1px solid #000000;height: 30px;margin-top: -14px;padding-top: 0px;margin-right: 60px;">Event Title</button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">Date</a><a class="dropdown-item" href="#">Event Title</a><a class="dropdown-item" href="#">Topic</a></div>
+            </div>
+            <div class="form-check form-check-inline" id="allRadio-1" style="width: 60px;margin-right: 0px;margin-left: 118px;"><input class="form-check-input" type="radio" id="All-1" checked="" name="Radio"><label class="form-check-label" for="All-1"><strong>All</strong></label></div>
+            <div class="form-check form-check-inline" id="onDemandRadio-1" style="width: 60px;margin-right: 65px;margin-left: 20px;"><input class="form-check-input" type="radio" id="On-Demand-1" name="Radio"><label class="form-check-label" for="On-Demand-1"><strong>Previous</strong><br></label></div>
+            <div class="form-check form-check-inline" id="liveRadio-1" style="width: 60px;"><input class="form-check-input" type="radio" id="Live-1" name="Radio"><label class="form-check-label" for="Live-1"><strong>Upcoming</strong><br></label></div><label class="form-label text-start" id="lblTitle-1" style="margin-bottom: 0;font-weight: bold;width: 80px;margin-left: 70px;">Keyword:<br></label><input type="text" id="txtTitle-1" placeholder="Enter keyword..." style="width: 375px;/*position: absolute;*/left: 15%;margin-bottom: 10px;border-radius: 5px;height: 30px;text-align: left;margin-top: 20px;border: 1px solid rgb(0,0,0);"><button class="btn" id="btnSearch-1" type="button" style="width: 300px;height: 40px;color: rgb(255,255,255);font-size: 25px;border: 1px solid var(--bs-black);position: static;bottom: 0;/*left: 45%;*/margin-bottom: 5px;padding-top: 0px;background: #000000;margin-left: 4rem;text-align: center;display: inline-block;margin-top: 0px;padding-bottom: 0px;">Search</button>
+        </div>
+        <div class="table-responsive" style="margin-top: 212px;height: 500px;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="width: 91.55px;">Event Image</th>
+                        <th style="width: 432.41px;">Title</th>
+                        <th style="width: 274.263px;">Topic</th>
+                        <th style="width: 377.463px;">Date &amp; Time</th>
+                        <th>Type</th>
+                        <th style="width: 238.962px;">Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="height: 80px;"><img src="assets/img/eventbruh5.png" style="width: 150px;height: 80px;"></td>
+                        <td style="font-size: 16px;height: 80px;">Business 101: Ready for Entrepreneurship? [Start-Up Essentials]<br></td>
+                        <td style="height: 80px;">Business Startup/Preplanning</td>
+                        <td style="height: 80px;">December 6th, 2022 12PM</td>
+                        <td style="height: 80px;">Online Meeting (Live)</td>
+                        <td style="height: 80px;">Open</td>
+                        <td><button class="btn btn-primary" type="button" style="background: rgb(0,0,0);border-style: none;">EDIT</button></td>
+                    </tr>
+                    <tr style="height: 80px;">
+                        <td style="height: 80px;"><img src="assets/img/eventbruh2.png" style="width: 150px;height: 80px;"></td>
+                        <td style="font-size: 16px;height: 80px;">Canva Basics to Digital Marketing Design [SBDC-CoE]<br><br></td>
+                        <td style="font-size: 16px;height: 80px;">Internet/Web Training<br><br></td>
+                        <td style="font-size: 16px;height: 80px;">November 30th, 2022 12PM</td>
+                        <td style="font-size: 16px;height: 80px;">Online Meeting (Live)</td>
+                        <td style="font-size: 16px;height: 80px;">Open</td>
+                        <td><button class="btn btn-primary" type="button" style="background: rgb(0,0,0);border-style: none;">EDIT</button></td>
+                    </tr>
+                    <tr style="height: 80px;">
+                        <td style="height: 80px;"><img src="assets/img/eventbruh6.png" style="width: 150px;height: 80px;"></td>
+                        <td style="height: 80px;">Go With The Flow: Introduction to Cash Flow Management<br></td>
+                        <td style="height: 80px;">Accounting/Budget</td>
+                        <td style="height: 80px;">December 6th, 2022 4PM</td>
+                        <td style="height: 80px;">Online Meeting (Live)</td>
+                        <td style="height: 80px;">Open</td>
+                        <td><button class="btn btn-primary" type="button" style="background: rgb(0,0,0);border-style: none;">EDIT</button></td>
+                    </tr>
+                    <tr style="height: 80px;">
+                        <td style="width: 163.55px;height: 80px;"><img id="eventIMG-7" src="assets/img/bruh%202.png" width="186" height="112" style="/*position: relative;*/margin-top: 10px;width: 150px;height: 80px;"></td>
+                        <td style="font-size: 16px;color: rgb(33,37,41);height: 80px;"><span style="background-color: rgb(255, 255, 255);">International E-Commerce:&nbsp;Expanding Your&nbsp;Markets Online [SBDC-CoE]</span><br></td>
+                        <td style="font-size: 16px;color: rgb(33, 37, 41);height: 80px;">Internet/Web Training</td>
+                        <td style="font-size: 16px;height: 80px;">November 3rd, 2022 12PM-1PM</td>
+                        <td style="font-size: 16px;width: 282.763px;height: 80px;">Online Meeting (Live)</td>
+                        <td style="font-size: 16px;width: 226.137px;height: 80px;">Closed</td>
+                        <td><button class="btn btn-primary" id="disabledBtn1" type="button" style="background: rgb(90,90,90);border-style: none;">EDIT</button></td>
+                    </tr>
+                    <tr style="height: 80px;">
+                        <td style="font-size: 16px;height: 80px;"><img src="assets/img/eventbruh4.png" style="width: 150px;height: 80px;font-size: 16px;"></td>
+                        <td style="font-size: 16px;height: 80px;">Marketing on a Shoestring [SBDC-CoE]<br></td>
+                        <td style="font-size: 16px;height: 80px;">Internet/Web Training</td>
+                        <td style="font-size: 16px;height: 80px;">December 5th, 2022 12PM</td>
+                        <td style="font-size: 16px;height: 80px;">Online Meeting (Live)</td>
+                        <td style="font-size: 16px;height: 80px;">Open</td>
+                        <td><button class="btn btn-primary" type="button" style="background: rgb(0,0,0);border-style: none;">EDIT</button></td>
+                    </tr>
+                    <tr style="font-size: 16px;">
+                        <td style="font-size: 16px;"><img src="assets/img/eventbruh3.png" style="width: 150px;height: 80px;font-size: 16px;"></td>
+                        <td style="font-size: 16px;">Pitching Your Business Part 1: Creating Your Pitch [Start-Up Essentials]<br></td>
+                        <td style="font-size: 16px;">Business Startup/Preplanning</td>
+                        <td style="font-size: 16px;">December 3rd, 2022 10AM</td>
+                        <td style="font-size: 16px;">Online Meeting (Live)</td>
+                        <td style="font-size: 16px;">Canceled</td>
+                        <td><button class="btn btn-primary" id="disabledBtn2" type="button" style="background: rgb(90,90,90);border-style: none;position: inherit;">EDIT</button></td>
+                    </tr>
+                    <tr style="font-size: 16px;">
+                        <td style="font-size: 16px;"><img src="assets/img/smallBruh3.png" style="width: 150px;height: 80px;font-size: 16px;"></td>
+                        <td style="font-size: 16px;">SEO Basics [SBDC CoE]<br></td>
+                        <td style="font-size: 16px;">Internet/Web Training</td>
+                        <td style="font-size: 16px;">December 8th, 2022 12PM</td>
+                        <td style="font-size: 16px;">Online Meeting (Live)</td>
+                        <td style="font-size: 16px;">Open</td>
+                        <td><a class="btn btn-primary" role="button" style="background: rgb(0,0,0);border-style: none;" href="AdminEditEventPage.html">EDIT</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/img/eventbruh6.png" style="width: 150px;height: 80px;"></td>
+                        <td>Use Youtube To Grow Your Business presented by Google [SBDC-CoE]<br></td>
+                        <td>Internet/Web Training</td>
+                        <td>December 7th, 2022 12PM</td>
+                        <td>Online Meeting (Live)</td>
+                        <td>Open</td>
+                        <td><button class="btn btn-primary" type="button" style="background: rgb(0,0,0);border-style: none;">EDIT</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <nav class="d-xxl-flex justify-content-xxl-center" id="Pagination" style="color: rgb(0,0,0);width: 100%;margin-top: 30px;">
+            <ul class="pagination">
+                <li class="page-item" style="color: black;"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" href="AdminEventsPage.html">1</a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" href="AdminEventsPage.html">2</a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" href="AdminEventsPage.html">3</a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" href="AdminEventsPage.html">4</a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" href="AdminEventsPage.html">5</a></li>
+                <li class="page-item" style="color: black;"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top text-uppercase" id="mainNav" style="background: rgb(34,34,34);height: 110px;">
+            <div class="container"><a class="navbar-brand" href="#page-top" style="margin-right: 63px;padding-right: 6px;padding-bottom: 0px;margin-bottom: -4px;width: 200px;height: 84px;background: url(&quot;assets/img/anotherSmallBruh.png&quot;);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-bottom: -72px;">
+                    <div class="dropdown" style="margin-left: 30px;"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: white;padding-bottom: 0px;/*border-radius: 6px;*//*border-style: none;*//*border-bottom: 5px solid #74BD43;*/">Tools</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="AdminEditRolesPage.html">Edit Roles</a><a class="dropdown-item" href="AdminPresenterValidationTable.html">Validation Tables</a><a class="dropdown-item" href="AdminConversionPage.html">Conversion</a></div>
+                    </div><a class="btn btn-primary" role="button" style="color: white;padding-bottom: 6px;background: rgba(24,188,156,0);border-style: none;height: auto;margin-left: 50px;" href="AdminEventsPage.html"><strong><span style="text-decoration: underline;">EVENTS</span></strong></a>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"></li>
+                        <li class="nav-item mx-0 mx-lg-1"></li>
+                        <li class="nav-item mx-0 mx-lg-1"></li>
+                    </ul>
+                    <h1 style="color: rgb(255,255,255);font-size: 30px;"><span style="font-weight: normal !important;">SHEILA BISHOP</span><br></h1><a class="py-3 px-0 px-lg-3 rounded" href="SBDCLoginPage.html" style="color: white;/*border-bottom: 5px solid #74BD43;*//*padding-bottom: 15px;*//*border-radius: .375rem;*/">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <footer class="text-center footer" style="padding-top: 10px;padding-bottom: 10px;background: rgb(34,34,34);width: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>1515 Market Street<br>Philadelphia, PA 19102</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Around the Web</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">Contact</h4>
+                    <p class="lead mb-0"><span>Phone: 215.204.7282<br>Email: sbdc@temple.edu<br></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+</body>
+
+</html>
